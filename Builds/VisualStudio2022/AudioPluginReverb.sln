@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 17
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudioPluginReverb - Standalone Plugin", "AudioPluginReverb_StandalonePlugin.vcxproj", "{CC47CB8B-F5BA-296A-CD0B-798A1559C259}"
+	ProjectSection(ProjectDependencies) = postProject
+		{78E2C66D-7D96-044A-293E-0ACC6561334E} = {78E2C66D-7D96-044A-293E-0ACC6561334E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudioPluginReverb - VST3", "AudioPluginReverb_VST3.vcxproj", "{3790EB63-DC47-A00C-E2ED-6E950A5CB46E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{78E2C66D-7D96-044A-293E-0ACC6561334E} = {78E2C66D-7D96-044A-293E-0ACC6561334E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudioPluginReverb - Shared Code", "AudioPluginReverb_SharedCode.vcxproj", "{78E2C66D-7D96-044A-293E-0ACC6561334E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3790EB63-DC47-A00C-E2ED-6E950A5CB46E}.Debug|x64.ActiveCfg = Debug|x64
+		{3790EB63-DC47-A00C-E2ED-6E950A5CB46E}.Debug|x64.Build.0 = Debug|x64
+		{3790EB63-DC47-A00C-E2ED-6E950A5CB46E}.Release|x64.ActiveCfg = Release|x64
+		{3790EB63-DC47-A00C-E2ED-6E950A5CB46E}.Release|x64.Build.0 = Release|x64
+		{CC47CB8B-F5BA-296A-CD0B-798A1559C259}.Debug|x64.ActiveCfg = Debug|x64
+		{CC47CB8B-F5BA-296A-CD0B-798A1559C259}.Debug|x64.Build.0 = Debug|x64
+		{CC47CB8B-F5BA-296A-CD0B-798A1559C259}.Release|x64.ActiveCfg = Release|x64
+		{CC47CB8B-F5BA-296A-CD0B-798A1559C259}.Release|x64.Build.0 = Release|x64
+		{78E2C66D-7D96-044A-293E-0ACC6561334E}.Debug|x64.ActiveCfg = Debug|x64
+		{78E2C66D-7D96-044A-293E-0ACC6561334E}.Debug|x64.Build.0 = Debug|x64
+		{78E2C66D-7D96-044A-293E-0ACC6561334E}.Release|x64.ActiveCfg = Release|x64
+		{78E2C66D-7D96-044A-293E-0ACC6561334E}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
